@@ -22,6 +22,17 @@ Pre-alpha. The first usable core now exists: strict-past feature
 generation, feature validation/selection helpers, experiment metrics,
 SQLite journal, and a simple promotion gate.
 
+## Examples
+
+Run the synthetic energy-demand demo:
+
+```bash
+PYTHONPATH=src python examples/energy/energy_demo.py
+```
+
+For a notebook walkthrough, open
+[`notebooks/energy_walkthrough.ipynb`](notebooks/energy_walkthrough.ipynb).
+
 Read in this order:
 
 1. [docs/kaggle-mapping.md](docs/kaggle-mapping.md) — what a top Kaggle

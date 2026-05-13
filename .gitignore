@@ -13,8 +13,11 @@ venv/
 # Runtime state
 *.duckdb
 *.duckdb.wal
+*.sqlite
+*.sqlite-journal
 workspace/
 journal/
+examples/energy/output/
 .env
 .envrc
 
