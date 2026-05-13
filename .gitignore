@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Virtualenvs
+.venv/
+venv/
+
+# Runtime state
+*.duckdb
+*.duckdb.wal
+workspace/
+journal/
+.env
+.envrc
+
+# OS
+.DS_Store
